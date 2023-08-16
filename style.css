@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+}
+h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.contain{
+    display: flex;
+    width: 60vw;
+    height: 40vh;
+}
+.draw{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.rig{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    justify-content: space-around;
+}
+.bot{
+    display: flex;
+    align-items: center;
+}
+.av{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sha{
+    margin-left:  18em;;
+    border: none;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+}
+.mid p{
+    color: hsl(212, 23%, 69%) ;
+    font-weight: 500;
+}
+.da{
+    color: hsl(212, 23%, 69%) ;
+}
+.sha:hover{
+    background-color: hsl(214, 17%, 51%);
+    color: white;
+    cursor: pointer;
+}
+.act{
+    background-color: hsl(214, 17%, 51%);
+    color: white;
+    cursor: pointer;
+}
+.ds{
+    position: absolute;
+    z-index: 5;
+    top: 23.5em;
+    left: 65.3em;
+}
+.share{
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    padding: 1em 2em;
+    border-radius: 15px;
+    align-items: center;
+}
+.sp{
+    color: hsl(214, 17%, 51%);
+}
+.share img{
+    margin-left: 1em;
+}
+.tri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tril{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    border: 10px solid transparent;
+    border-top: 10px solid hsl(217, 19%, 35%);
+    border-right: 10px solid hsl(217, 19%, 35%);
+
+}
+.trir{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    border: 10px solid transparent;
+    border-top: 10px solid hsl(217, 19%, 35%);
+    border-left: 10px solid hsl(217, 19%, 35%);
+
+}
+
+.dsc{
+    display: none;
+}
